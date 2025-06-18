@@ -25,14 +25,13 @@ export const ContactSection = () => {
     emailjs
       .sendForm(
         "service_zzi5kuw",
-        "template_d3mwbep",
+        "template_9rhisc9",
         formRef.current,
-        "jSr_uRoAFcCN6bRUi",
-
-
+        "jSr_uRoAFcCN6bRUi"
       )
       .then(
-        () => {
+        (result) => {
+          console.log("✅ EmailJS Success:", result);
           toast({
             title: "Message sent!",
             description:
@@ -41,10 +40,11 @@ export const ContactSection = () => {
           formRef.current.reset();
           setIsSubmitting(false);
         },
-        () => {
+        (error) => {
+          console.error("❌ EmailJS Error:", error);
           toast({
             title: "Oops!",
-            description: "Something went wrong. Please try again later.",
+            description: "Something went wrong. Check console for details.",
           });
           setIsSubmitting(false);
         }
@@ -109,7 +109,12 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4">Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/sreeja-sangras-1883961b5/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-primary transition-colors"
+                >
                   <Linkedin />
                 </a>
                 <a href="#" target="_blank">
