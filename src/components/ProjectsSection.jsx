@@ -42,7 +42,7 @@ const projects = [
       "A browser-based match-3 game inspired by Candy Crush, featuring drag-and-drop, real-time score updates, and a dynamic game loop built in pure JavaScript.",
     image: candy, // Replace with actual image path in your assets folder
     tags: ["JavaScript", "HTML", "CSS", "Vanilla JS", "Game Logic"],
-    demoUrl: "https://your-live-demo-link.com", // replace with actual live link if hosted
+    demoUrl: "https://candy-crush-ochre-beta.vercel.app/", // replace with actual live link if hosted
     githubUrl: "https://github.com/Sreeeja9866/candy-crush-clone",
   },
 ];
