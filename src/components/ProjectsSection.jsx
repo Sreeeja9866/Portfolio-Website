@@ -2,10 +2,22 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 import cryptoImg from "../assets/crypto.png";
 import Bud from "../assets/Bud.png";
 import coding from "../assets/coding.png"; 
-import candy from "../assets/candy.png"; // Ensure this image exists or update the path
+import candy from "../assets/candy.png"; 
+import portfolioImg from "../assets/portfolioImg.png"; 
 const projects = [
   {
     id: 0,
+    title: "Portfolio Website",
+    description:
+      "A modern, responsive developer portfolio built using React, Vite, and Tailwind CSS. It features smooth dark/light theme toggling, custom animations, and section-based layouts to showcase skills, projects, and contact info.",
+    image: portfolioImg,
+    tags: ["React", "Tailwind CSS", "Vite", "Dark Mode"],
+    demoUrl: "https://portfolio-website-silk-eight-96.vercel.app//",
+    githubUrl: "https://github.com/Sreeeja9866/Portfolio-Website",
+  },
+
+  {
+    id: 1,
     title: "Cryptocurrency Price Tracker",
     description:
       "A real-time cryptocurrency tracker using Next.js and CoinGecko API. It displays live market data, categories, exchanges, and trends.",
@@ -15,7 +27,7 @@ const projects = [
     githubUrl: "https://github.com/Sreeeja9866/CryptoPrice-Tracker",
   },
   {
-    id: 1,
+    id: 2,
     title: "BudgetPal – Personal Finance Manager",
     description:
       "A Flask-based personal finance and savings goal tracker with expense, income, forecasting, and recurring transaction features.",
@@ -25,7 +37,7 @@ const projects = [
     githubUrl: "https://github.com/Sreeeja9866/Budgetpal",
   },
   {
-    id: 2,
+    id: 3,
     title: "VocabVault – Interactive Dictionary App",
     description:
       "A responsive dictionary web app that lets users search definitions, hear pronunciations, bookmark words, and get daily motivational quotes with a sleek UI.",
@@ -36,7 +48,7 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Candy Crush Clone",
     description:
       "A browser-based match-3 game inspired by Candy Crush, featuring drag-and-drop, real-time score updates, and a dynamic game loop built in pure JavaScript.",
