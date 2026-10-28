@@ -12,14 +12,14 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Full-Stack Web Developer | Backend Specialist | Cloud & DevOps
-              Enthusiast
+              Software Engineer | Backend | Full Stack | Cloud & DevOps
+          
             </h3>
 
             <p className="text-muted-foreground">
               With over 3 years of experience in full-stack development, I
               specialize in building high-performance, scalable applications
-              using Java, Spring Boot, Next.js, TypeScript, Node.js, and modern
+              using Python, Fast API, Java, Spring Boot, Next.js, TypeScript, Node.js, and modern
               DevOps tools. I’ve contributed to both startup and
               enterprise-level projects — implementing backend microservices,
               designing REST APIs, setting up CI/CD pipelines, and building
@@ -56,9 +56,6 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg"> Web Development</h4>
                   <p className="text-muted-foreground">
-                    Building responsive, secure, and scalable web applications
-                    using full-stack technologies like Java, Spring Boot,
-                    Node.js, and PostgreSQL.
                   </p>
                 </div>
               </div>
